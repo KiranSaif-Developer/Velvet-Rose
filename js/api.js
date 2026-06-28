@@ -1,4 +1,4 @@
-export const BASE_URL = "http://localhost:3000";
+export const BASE_URL = "https://6a40bc2d1ff1d27becc0ed62.mockapi.io/api/v1";
 
 async function request(path, options = {}) {
     const res = await fetch(`${BASE_URL}${path}`, {
@@ -16,4 +16,5 @@ export function makeCrud(endpoint) {
     };
 }
 
-export const productsApi = makeCrud("/products"); // Aapka entity endpoint [cite: 91, 140]
+export const productsApi = makeCrud("/products");
+export const ordersApi = makeCrud("/orders");

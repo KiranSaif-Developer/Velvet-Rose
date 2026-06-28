@@ -1,0 +1,62 @@
+/* Card aur Grid Alignment */
+.card {
+    height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #eee !important;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Image ka size fix (Sab ka same rahega) */
+.card-img-top {
+    height: 250px !important;
+    object-fit: cover !important; /* Image stretch nahi hogi */
+    width: 100%;
+}
+
+/* Card Body Alignment */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    min-height: 2.8rem; /* Product name barabar jagah le */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Price aur Button hamesha bottom par rahen ge */
+.price-tag {
+    margin-top: auto;
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.btn-pink {
+    background-color: #db7093;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 20px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-pink:hover {
+    background-color: #c05d7e;
+    color: white;
+}

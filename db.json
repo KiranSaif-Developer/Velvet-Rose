@@ -1,0 +1,233 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Traditional Mehndi Gift",
+      "price": 2500,
+      "category": "Wedding",
+      "image": "assets/mehndigifts.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Royal Flower Crown",
+      "price": 1800,
+      "category": "Wedding",
+      "image": "assets/crown.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Red Rose Gajry",
+      "price": 1200,
+      "category": "Wedding",
+      "image": "assets/redrosegajry.jpg"
+    },
+    {
+      "id": "4",
+      "name": "White Gajry Premium",
+      "price": 1000,
+      "category": "Wedding",
+      "image": "assets/whitegajry.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Mehndi Floral Set",
+      "price": 2200,
+      "category": "Wedding",
+      "image": "assets/mehndi.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Yellow Flower Gajry",
+      "price": 1100,
+      "category": "Wedding",
+      "image": "assets/yellow flower gajry.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Purple Crochet Bouquet",
+      "price": 3000,
+      "category": "Crochet Art",
+      "image": "assets/purple crochet flowers.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Handmade Red Crochet",
+      "price": 1500,
+      "category": "Crochet Art",
+      "image": "assets/red crochet flower.jpg"
+    },
+    {
+      "id": "9",
+      "name": "White Crochet Rose",
+      "price": 1400,
+      "category": "Crochet Art",
+      "image": "assets/white crochet.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Pink Birthday Special",
+      "price": 3500,
+      "category": "Birthday",
+      "image": "assets/PinkBirthdaygift.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Birthday Gift Box",
+      "price": 3200,
+      "category": "Birthday",
+      "image": "assets/Birthday gift.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Classic Lily Bouquet",
+      "price": 2200,
+      "category": "Bouquets",
+      "image": "assets/lily.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Spring Tulips",
+      "price": 2800,
+      "category": "Bouquets",
+      "image": "assets/tulips.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Sunflower Joy",
+      "price": 1500,
+      "category": "Bouquets",
+      "image": "assets/sunflower.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Blue and White Flowers",
+      "price": 2600,
+      "category": "Bouquets",
+      "image": "assets/blue and white flowers.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Mixed Rose Bouquet",
+      "price": 1900,
+      "category": "Bouquets",
+      "image": "assets/mixed rose .jpg"
+    },
+    {
+      "id": "17",
+      "name": "Fresh Rose Stem",
+      "price": 500,
+      "category": "Bouquets",
+      "image": "assets/rose.jpg"
+    },
+    {
+      "id": "18",
+      "name": "White Floral Mix",
+      "price": 2400,
+      "category": "Bouquets",
+      "image": "assets/whiteflowers.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Mixed Flower Basket",
+      "price": 3000,
+      "category": "Bouquets",
+      "image": "assets/mixed flower.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Premium Crown",
+      "price": 2500,
+      "category": "Wedding",
+      "image": "assets/Premium crown.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "orderDate": "1/21/2026, 5:47:37 PM",
+      "items": [
+        {
+          "id": "4",
+          "name": "White Gajry Premium",
+          "price": 1000,
+          "category": "Wedding",
+          "image": "assets/whitegajry.jpg",
+          "quantity": 3
+        },
+        {
+          "id": "3",
+          "name": "Red Rose Gajry",
+          "price": 1200,
+          "category": "Wedding",
+          "image": "assets/redrosegajry.jpg",
+          "quantity": 2
+        },
+        {
+          "id": "4",
+          "name": "White Gajry Premium",
+          "price": 1000,
+          "category": "Wedding",
+          "image": "assets/whitegajry.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "2",
+          "name": "Royal Flower Crown",
+          "price": 1800,
+          "category": "Wedding",
+          "image": "assets/crown.jpg",
+          "quantity": 1
+        }
+      ],
+      "totalAmount": "8200",
+      "status": "Success",
+      "id": 1
+    },
+    {
+      "customer": {
+        "name": "u",
+        "email": "u",
+        "phone": "u",
+        "address": "juui",
+        "postal": "u"
+      },
+      "items": [
+        {
+          "id": "3",
+          "name": "Red Rose Gajry",
+          "price": 1200,
+          "category": "Wedding",
+          "image": "assets/redrosegajry.jpg"
+        }
+      ],
+      "totalAmount": "1200",
+      "paymentMethod": "Cash on Delivery",
+      "orderDate": "1/21/2026, 5:51:28 PM",
+      "status": "Success",
+      "id": 2
+    },
+    {
+      "customer": {
+        "name": "u",
+        "email": "h",
+        "phone": "jj",
+        "address": "hh",
+        "postal": "h"
+      },
+      "items": [
+        {
+          "id": "3",
+          "name": "Red Rose Gajry",
+          "price": 1200,
+          "category": "Wedding",
+          "image": "assets/redrosegajry.jpg"
+        }
+      ],
+      "totalAmount": "1200",
+      "paymentMethod": "Cash on Delivery",
+      "orderDate": "1/21/2026, 5:54:33 PM",
+      "status": "Success",
+      "id": 3
+    }
+  ],
+  "cart": []
+}

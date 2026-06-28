@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Velvet Rose | Handcrafted Flowers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Cart Badge: Transparent background, just the number */
+        #cartCount {
+            background-color: transparent !important;
+            color: #db7093 !important;
+            font-weight: bold;
+            font-size: 1rem;
+            border: none;
+            padding: 0;
+            margin-left: 5px;
+        }
+        
+        /* Footer Link Styling */
+        .footer-link {
+            text-decoration: none;
+            color: rgba(255,255,255,0.5);
+            transition: 0.3s;
+            font-size: 0.9rem;
+        }
+        
+        .footer-link:hover {
+            color: #db7093;
+            padding-left: 5px;
+        }
+
+        /* Hero Text Shadow for readability */
+        .hero-title {
+            font-family: 'Great Vibes';
+            font-size: 5.5rem;
+            color: white;
+            text-shadow: 2px 4px 8px rgba(0,0,0,0.4);
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3 bg-white">
+    <div class="container">
+        <a class="navbar-brand" href="index.html" style="font-family: 'Cinzel'; color: #db7093; font-weight: bold; font-size: 1.5rem;">The Velvet Rose</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link px-3 active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="#collection">Collection</a></li>
+                <li class="nav-item">
+                    <a class="nav-link px-3 d-flex align-items-center" href="cart.html" style="text-decoration: none; color: inherit;">
+                        Cart <span id="cartCount">0</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<header class="hero-section text-center d-flex align-items-center justify-content-center" style="background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('assets/mixed flower.jpg') center/cover; height: 60vh; background-attachment: fixed;">
+    <div class="container">
+        <h1 class="hero-title">The Velvet Rose</h1>
+        <p class="text-white fs-4 fw-light">Handcrafted Elegance for Your Special Moments</p>
+    </div>
+</header>
+
+<div class="container text-center my-5">
+    <h2 class="mb-4" style="font-family: 'Cinzel'; color: #db7093;">Explore Our Art</h2>
+    <div class="d-flex flex-wrap justify-content-center gap-3">
+        <button class="btn btn-outline-danger rounded-pill px-4" onclick="filterCategory('All')">All Items</button>
+        <button class="btn btn-outline-danger rounded-pill px-4" onclick="filterCategory('Wedding')">Wedding</button>
+        <button class="btn btn-outline-danger rounded-pill px-4" onclick="filterCategory('Birthday')">Birthday</button>
+        <button class="btn btn-outline-danger rounded-pill px-4" onclick="filterCategory('Bouquets')">Bouquets</button>
+        <button class="btn btn-outline-danger rounded-pill px-4" onclick="filterCategory('Crochet Art')">Crochet Art</button>
+    </div>
+</div>
+
+<section id="collection" class="pb-5">
+    <div class="container">
+        <div id="product-list" class="row g-4">
+             </div>
+    </div>
+</section>
+
+<footer class="bg-dark text-white pt-5 pb-3 mt-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <h4 style="font-family: 'Cinzel'; color: #db7093;">The Velvet Rose</h4>
+                <p class="mt-3 text-white-50 small">
+                    Premium handcrafted flowers and unique crochet art. We bring beauty to your weddings, birthdays, and every moment in between.
+                </p>
+            </div>
+            
+            <div class="col-md-4 px-md-5">
+                <h5 class="mb-3 fw-bold">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><a href="index.html" class="footer-link">Home</a></li>
+                    <li class="mb-2"><a href="#collection" class="footer-link">Collection</a></li>
+                    <li class="mb-2"><a href="cart.html" class="footer-link">Shopping Bag</a></li>
+                    <li class="mb-2"><a href="#" class="footer-link">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-md-4">
+                <h5 class="mb-3 fw-bold">Get In Touch</h5>
+                <div class="d-flex align-items-center mb-2">
+                    <span class="me-2">📍</span>
+                    <span class="text-white-50 small">Lahore, Punjab, Pakistan</span>
+                </div>
+                <div class="d-flex align-items-center mb-2">
+                    <span class="me-2">📞</span>
+                    <span class="text-white-50 small">+92 300 1234567</span>
+                </div>
+                <div class="d-flex align-items-center mb-3">
+                    <span class="me-2">📧</span>
+                    <span class="text-white-50 small">info@thevelvetrose.com</span>
+                </div>
+                
+                <div class="mt-4">
+                    <div class="input-group">
+                        <input type="email" class="form-control form-control-sm bg-transparent text-white border-secondary" placeholder="Your Email">
+                        <button class="btn btn-sm btn-danger px-3">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr class="border-secondary mt-5">
+        <div class="text-center">
+            <p class="mb-0 small text-white-50">&copy; 2026 The Velvet Rose. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="js/app.js"></script>
+
+</body>
+</html>
